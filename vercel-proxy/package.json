@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-binance-proxy",
+  "version": "1.0.0",
+  "description": "A Vercel proxy for forwarding requests to the binance API.",
+  "main": "api/binance.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^35.2.1"
+  }
+}

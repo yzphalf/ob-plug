@@ -1,0 +1,15 @@
+{
+  "regions": [
+    "hnd1"
+  ],
+  "rewrites": [
+    {
+      "source": "/okx/:path*",
+      "destination": "/api/okx.js"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/api/binance.js"
+    }
+  ]
+}
